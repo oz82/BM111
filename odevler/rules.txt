@@ -1,27 +1,32 @@
-1) Her bir ödev ilgili C dosyası içinde uygun yerlerde kod yazmanızı gerektirmektedir. 
-Belirtilen yerler haricinde değişiklik yapmayın. Aksi durumda ödevden 0 alırsınız. 
+1) Her bir ödev ilgili C dosyası içinde uygun yerlerde kod yazılmasını gerektirmektedir. 
+Belirtilen yerler haricinde değişiklik yapılmamalıdır. Aksi durumda ödev notu 0 olacaktır.
 Not: ilgili fonksiyonlar içindeki "return 0" gibi deyimler, hiçbir kod yazılmamış olsa 
 dahi program çalıştırıldığında ekranda bir puan görebilmek için kullanılmıştır. 
-İlgili ifade üzerinde uygun değişikliği yapabilirsiniz.
+İlgili ifade üzerinde uygun değişiklik yapılabilir.
 
 2) Ödev dosyası bir C derleyicisinde doğru biçimde çalıştırılabilir durumda olmalıdır. 
-Aksi durumda ödevden 0 alırsınız. Standart olması için şu online derleyicide test ediniz: 
-https://www.programiz.com/c-programming/online-compiler/
+Aksi durumda ödev notu 0 olacaktır. Kontrol için kod şu online derleyicilerden birinde 
+test edilmelidir:
+ * https://www.programiz.com/c-programming/online-compiler/
+ * https://www.onlinegdb.com/online_c_compiler
+ * https://www.tutorialspoint.com/online_c_compiler.php
 
-3) Yazdığınız kodlar çalıştırıldığında ekranda ödev notunuz görülecektir. 
-Eğer yüksek not almak için kodu manipüle ederseniz ödevden 0 alırsınız. 
-Sizden sadece test edilen değerler için çalışan bir kod değil, genelgeçer bir kod yazmanız 
-beklenmektedir.
+3) İlgili ödev dosyası çalıştırıldığında ekranda ödevden alınan not görülecektir. 
+Ancak kod yüksek not almak amacıyla manipüle edilirse ödev notu 0 olacaktır. 
+Öğrencilerden sadece test edilen değerler için çalışan bir kod değil, genelgeçer bir kod 
+yazmaları beklenmektedir. Değerlendirici ilgili kod parçalarını başka testlerle de 
+sınayabilir.
 
-4) Kodlarınızı yazdıktan sonra dosyayı ad_soyad_hw1.c şeklinde kaydedip mail eki olarak 
-dersi veren öğretim üyesinin kurumsal mail adresine gönderin. Örneğin adı Ali Kaya olan 
-bir öğrenci 1. ödev dosyasını şöyle oluşturmalıdır: ali_kaya_hw1.c
+4) Ödev tamamlandıktan sonra dosyanın ad_soyad_hw1.c (sonrakiler için hw2, hw3, ...) 
+şeklinde kaydedilip mail eki olarak dersi veren öğretim üyesinin kurumsal mail adresine 
+gönderilmesi gerekmektedir. Örneğin adı Ali Kaya olan bir öğrenci 1. ödev dosyasını şöyle 
+oluşturmalıdır: ali_kaya_hw1.c
 
-5) Mailin başlığına yalnızca "BM111 hw1" yazın (Diğer ödevler için hw2, hw3). 
-Başka hiçbir ifade eklemeyin. Mail gövdesine hiçbir mesaj yazmayın.
+5) Mailin başlığına yalnızca "BM111 hw1" yazılmalıdır (sonrakiler için hw2, hw3, ...). 
+Başka hiçbir ifade eklenmemelidir. Mail gövdesine hiçbir mesaj yazılmamalıdır.
 
-6) Ödevde ne yapacağını anlamayanlar sorularını derste sorabilir. Mail yoluyla ödeve 
-dair soru sormayınız.
+6) Öğrenciler ödevle ilgili sorularını derste sorabilir. Mail yoluyla ödeve dair soru 
+sorulmamalıdır.
 
-7) Ödevlerini ileten ancak mail gönderme kurallarına uymayanların (kural-4, 5, 6) 
-ödev notlarından 20 puan düşülecektir.
+7) Ödevlerini ileten ancak mail gönderme kurallarına uymayanların (kural 4, 5, 6) ödev 
+notlarından 20 puan düşülecektir.
