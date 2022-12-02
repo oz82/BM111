@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main() {
+    // odev icin son tarih: 09.12.2022 23:59
     // main fonksiyonunda degisiklik yapmayin!
     int puan = 10; // odevi gonderen herkes 10 puan alacak.
     if (ebob1(25, 90) == 5) puan += 10;
