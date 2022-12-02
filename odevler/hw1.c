@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main() {
+    // main fonksiyonunda degisiklik yapmayin!
     int puan = 10; // odevi gonderen herkes 10 puan alacak.
     if (ebob1(25, 90) == 5) puan += 10;
     if (ebob1(7, 200) == 1) puan += 10;
@@ -22,10 +23,12 @@ int main() {
 
 // verilen iki sayinin en buyuk ortak bolenini hesaplar
 int ebob1(int num1, int num2) {
+    // kodunuzu buraya yazin
     return 0;
 }
 
 // verilen dizideki sayilarin en buyuk ortak bolenini hesaplar
 int ebob2(int numbers[]) {
+    // kodunuzu buraya yazin
     return 0;
 }
