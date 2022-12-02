@@ -16,7 +16,7 @@ int main() {
     int arrayC[] = {21, 45, 60, 72, 90};
     if (ebob2(arrayA) == 1) puan += 10;
     if (ebob2(arrayB) == 10) puan += 10;
-    if (ebob2(arrayC) == 10) puan += 10;
+    if (ebob2(arrayC) == 3) puan += 10;
     
     printf("puan: %d", puan);
     return 0;
