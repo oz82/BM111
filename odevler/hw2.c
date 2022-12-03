@@ -10,7 +10,7 @@ int main() {
     if (is_palindromic("Anastas mum satsanA") == 1) score += 10;
     if (is_palindromic("Kasaya mal koyana yoklama yasaK") == 1) score += 20;
     if (is_palindromic("Eli bitti bile") == 0) score += 20;
-    if (is_palindromic("!iMrEnSeM aDaMa MaDaM eSnEr Mi") == 1) score += 25;
+    if (is_palindromic("!iMrEnSeM aDaMa mAdAm EsNeR mi") == 1) score += 25;
     
     printf("puan: %d", score);
     return 0;
