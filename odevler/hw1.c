@@ -2,6 +2,7 @@
 int main() {
     // odev icin son tarih: 09.12.2022 23:59
     // main fonksiyonunda degisiklik yapmayin!
+    // guncelleme: 07.12.2022 18:00
     int puan = 10; // odevi gonderen herkes 10 puan alacak.
     if (ebob1(25, 90) == 5) puan += 10;
     if (ebob1(7, 200) == 1) puan += 10;
@@ -14,9 +15,9 @@ int main() {
     int arrayA[] = {30, 16, 27};
     int arrayB[] = {450, 200, 120, 100};
     int arrayC[] = {21, 45, 60, 72, 90};
-    if (ebob2(arrayA) == 1) puan += 10;
-    if (ebob2(arrayB) == 10) puan += 10;
-    if (ebob2(arrayC) == 3) puan += 10;
+    if (ebob2(arrayA, 3) == 1) puan += 10;
+    if (ebob2(arrayB, 4) == 10) puan += 10;
+    if (ebob2(arrayC, 5) == 3) puan += 10;
     
     printf("puan: %d", puan);
     return 0;
@@ -29,7 +30,7 @@ int ebob1(int num1, int num2) {
 }
 
 // verilen dizideki sayilarin en buyuk ortak bolenini hesaplar
-int ebob2(int numbers[]) {
+int ebob2(int numbers[], int n) {
     // kodunuzu buraya yazin
     return 0;
 }
