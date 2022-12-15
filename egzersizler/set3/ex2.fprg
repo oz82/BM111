@@ -4,10 +4,10 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="ceng08"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-12-15 07:51:51 PM"/>
+        <attribute name="saved" value="2022-12-15 08:12:57 PM"/>
         <attribute name="created" value="Y2VuZzA4O0hPQ0FCTUxBQjsyMDIyLTEyLTE0OzAyOjEwOjA1IMOWUzsyNTU2"/>
         <attribute name="edited" value="Y2VuZzA4O0hPQ0FCTUxBQjsyMDIyLTEyLTE0OzAyOjIyOjE4IMOWUzszOzI2NzM="/>
-        <attribute name="edited" value="b3prYW47U0hBTk5PTjsyMDIyLTEyLTE1OzA3OjUxOjUxIFBNOzU7MjQ3MA=="/>
+        <attribute name="edited" value="b3prYW47U0hBTk5PTjsyMDIyLTEyLTE1OzA4OjEyOjU3IFBNOzY7MjQ3NQ=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -25,7 +25,7 @@
             <input variable="x"/>
             <assign variable="isFound" expression="0"/>
             <assign variable="i" expression="0"/>
-            <while expression="i &lt; (n-1) and isFound == 0">
+            <while expression="i &lt; n and isFound == 0">
                 <if expression="numbers[i] == x">
                     <then>
                         <output expression="(i + 1) &amp; &quot;.sirada buldum!&quot;" newline="True"/>
