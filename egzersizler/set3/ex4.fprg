@@ -4,13 +4,14 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="ozkan"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-12-14 12:41:26 PM"/>
+        <attribute name="saved" value="2022-12-15 09:26:38 PM"/>
         <attribute name="created" value="b3prYW47U0hBTk5PTjsyMDIyLTEyLTE0OzExOjEzOjEwIEFNOzIzMzA="/>
-        <attribute name="edited" value="b3prYW47U0hBTk5PTjsyMDIyLTEyLTE0OzEyOjQxOjI2IFBNOzU7MjQ2Ng=="/>
+        <attribute name="edited" value="b3prYW47U0hBTk5PTjsyMDIyLTEyLTE1OzA5OjI2OjM4IFBNOzY7MjQ4MA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
+            <output expression="&quot;Bu akis semasi, bir tam sayi dizisini buyukten kucuge dogru siralar (bubble sort).&quot;" newline="True"/>
             <declare name="n, i, j, temp" type="Integer" array="False" size=""/>
             <assign variable="n" expression="5"/>
             <declare name="numbers" type="Integer" array="True" size="n"/>
