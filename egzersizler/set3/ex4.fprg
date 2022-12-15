@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ozkan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-14 12:41:26 PM"/>
+        <attribute name="created" value="b3prYW47U0hBTk5PTjsyMDIyLTEyLTE0OzExOjEzOjEwIEFNOzIzMzA="/>
+        <attribute name="edited" value="b3prYW47U0hBTk5PTjsyMDIyLTEyLTE0OzEyOjQxOjI2IFBNOzU7MjQ2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, j, temp" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="5"/>
+            <declare name="numbers" type="Integer" array="True" size="n"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <output expression="&quot;sayi&quot; &amp; i &amp; &quot; :&quot;" newline="True"/>
+                <input variable="numbers[i]"/>
+            </for>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <for variable="j" start="i+1" end="n-1" direction="inc" step="1">
+                    <if expression="numbers[i]&lt;numbers[j]">
+                        <then>
+                            <assign variable="temp" expression="numbers[i]"/>
+                            <assign variable="numbers[i]" expression="numbers[j]"/>
+                            <assign variable="numbers[j]" expression="temp"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+            </for>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <output expression="numbers[i]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

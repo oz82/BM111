@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ceng08"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-15 07:32:31 PM"/>
+        <attribute name="created" value="Y2VuZzA4O0hPQ0FCTUxBQjsyMDIyLTEyLTE0OzAyOjEwOjA1IMOWUzsyNTU2"/>
+        <attribute name="edited" value="Y2VuZzA4O0hPQ0FCTUxBQjsyMDIyLTEyLTE0OzAyOjE2OjE1IMOWUzsxOzI2NzE="/>
+        <attribute name="edited" value="b3prYW47U0hBTk5PTjsyMDIyLTEyLTE1OzA3OjMyOjMxIFBNOzE7MjQ2Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Bu akis semasi, bir tamsayi dizisinin elemanlarini input olarak alir ve bunlari ekrana ters sirada yan yana dizer.&quot;" newline="True"/>
+            <declare name="i, n" type="Integer" array="False" size=""/>
+            <output expression="&quot;dizi boyutunu girin:&quot;" newline="True"/>
+            <input variable="n"/>
+            <declare name="numbers" type="Integer" array="True" size="n"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <output expression="&quot;numbers[&quot; &amp; i &amp; &quot;]:&quot;" newline="True"/>
+                <input variable="numbers[i]"/>
+            </for>
+            <for variable="i" start="n-1" end="0" direction="dec" step="1">
+                <output expression="numbers[i] &amp; &quot; &quot;" newline="False"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

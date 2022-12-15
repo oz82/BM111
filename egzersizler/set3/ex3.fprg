@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ceng08"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-15 08:02:40 PM"/>
+        <attribute name="created" value="Y2VuZzA4O0hPQ0FCTUxBQjsyMDIyLTEyLTE0OzAyOjEwOjA1IMOWUzsyNTU2"/>
+        <attribute name="edited" value="Y2VuZzA4O0hPQ0FCTUxBQjsyMDIyLTEyLTE0OzAzOjM4OjM4IMOWUzsxNjsyNzM1"/>
+        <attribute name="edited" value="b3prYW47U0hBTk5PTjsyMDIyLTEyLTE1OzA4OjAyOjQwIFBNOzM7MjQ2Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Bu akis semasi, verilen bir tamsayiyi bir tamsayi dizisi icinde ikili arama ile arar.&quot;" newline="True"/>
+            <declare name="i, n, x" type="Integer" array="False" size=""/>
+            <output expression="&quot;dizi boyutunu girin:&quot;" newline="True"/>
+            <input variable="n"/>
+            <declare name="numbers" type="Integer" array="True" size="n"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <output expression="&quot;numbers[&quot; &amp; i &amp; &quot;]:&quot;" newline="True"/>
+                <input variable="numbers[i]"/>
+            </for>
+            <output expression="&quot;aradiginiz sayiyi girin:&quot;" newline="True"/>
+            <input variable="x"/>
+            <declare name="isFound, median, start, end" type="Integer" array="False" size=""/>
+            <assign variable="isFound" expression="0"/>
+            <assign variable="start" expression="0"/>
+            <assign variable="end" expression="n - 1"/>
+            <while expression="isFound == 0 and start &lt; n">
+                <assign variable="median" expression="start + ((end - start) / 2)"/>
+                <if expression="numbers[median] == x">
+                    <then>
+                        <output expression="&quot;sayiyi dizinin &quot; &amp; (median+1) &amp; &quot;. sirasinda buldum&quot;" newline="True"/>
+                        <assign variable="isFound" expression="1"/>
+                    </then>
+                    <else>
+                        <if expression="numbers[median] &gt; x">
+                            <then>
+                                <assign variable="end" expression="median - 1"/>
+                            </then>
+                            <else>
+                                <assign variable="start" expression="median + 1"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+            <if expression="isFound == 0">
+                <then>
+                    <output expression="&quot;aradiginiz sayi dizinin icinde yok!&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
