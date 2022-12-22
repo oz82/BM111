@@ -1,0 +1,10 @@
+a) Girilen üç tamsayının en büyüğünü bulma
+b) n boyutlu bir tamsayı dizisinin ortalamasını bulma
+c) kullanıcının seçimine göre üç farklı alan (üçgen, daire veya dikdörtgen) hesabını yapma
+d) girilen bir sayının asal olup olmadığını belirleme
+e) verilen bir tamsayı dizisini küçükten büyüğe veya büyükten küçüğe sıralama
+
+algoritmalarına ait Flowgorithm dosyalarını ayrı ayrı oluşturup ad_soyad_hw4 isimli bir klasörde toplayın ve zip'leyin,
+son olarak bu zip dosyasını (ad_soyad_hw4.zip) ders öğreticisinin mail adresine "BM111 hw4" konulu bir mailin eki olarak gönderin.
+
+son tarih: 25.12.2022 23:59
