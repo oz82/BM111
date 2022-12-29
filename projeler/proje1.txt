@@ -1,0 +1,5 @@
+Romen rakamları kullanılarak yazılmış bir sayıyı modern rakamlara çeviren programı yazınız.
+
+>> Girdiler I-MMMMCMXCIX (1-4999) arasında olmalı.
+
+Bilgi için: https://www.rapidtables.com/convert/number/roman-numerals-converter.html?x1=&x2=1
