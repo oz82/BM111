@@ -1,4 +1,4 @@
-Kullanıcıdan bir tamsayılar alan, bunları bir dizide depolayan ve ardından bu dizinin ortalamasını hesaplayan bir program yazınız. 
+Kullanıcıdan bir tamsayılar dizisi alan, bunları bir dizide depolayan ve ardından bu dizinin ortalamasını hesaplayan bir program yazınız. 
 
 Program için özel gereksinimler şunlardır: 
 * Program, kullanıcıdan negatif bir sayı girene kadar birer birer bir dizi tamsayı girmesini istemelidir. 
