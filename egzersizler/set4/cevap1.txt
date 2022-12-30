@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main() {
+    // degisken tanimlama
+    int dizi[] = {4,5,1,2,5,2,1,4,5,9,0,3,4,5,8};
+    int frekans[10];
+    int i;
+    
+    // bu dongu frekans dizisinin elemanlarini ilklendirir
+    for (i = 0; i < 10; i++) {
+        frekans[i] = 0;
+    }
+    
+    // bu dongu frekans dizisinin elemanlarini hesaplar
+    for (i = 0; i < 15; i++) {
+        frekans[dizi[i]]++;
+    }
+    
+    for (i = 0; i < 10; i++) {
+        printf("%d -> %d\n", i, frekans[i]);
+    }
+
+    return 0;
+}

@@ -1,0 +1,28 @@
+Kullanıcıdan bir tamsayılar alan, bunları bir dizide depolayan ve ardından bu dizinin ortalamasını hesaplayan bir program yazınız. 
+
+Program için özel gereksinimler şunlardır: 
+* Program, kullanıcıdan negatif bir sayı girene kadar birer birer bir dizi tamsayı girmesini istemelidir. 
+* Negatif sayı ortalamaya dahil edilmemelidir. 
+* Program girilen tamsayıları bir dizide saklamalıdır. 
+* Program, bir diziyi ve boyutunu bağımsız değişken olarak alan ve dizideki öğelerin ortalamasını döndüren bir calculateAverage() fonsiyonu tanımlamalı ve kullanmalıdır. 
+* Program, girilen tam sayıların ortalamasını en yakın tam sayıya yuvarlanmış olarak yazdırmalıdır.
+
+Programın nasıl davranması gerektiğine dair bir örnek:
+
+Enter an integer (negative to quit): 10
+Enter an integer (negative to quit): 20
+Enter an integer (negative to quit): 30
+Enter an integer (negative to quit): 40
+Enter an integer (negative to quit): 50
+Enter an integer (negative to quit): -1
+Average: 30
+
+İpucu:
+Girilen tamsayıları saklamak için bir dizi, kullanıcıdan tamsayıları okumak için bir döngü ve tamsayıların ortalamasını hesaplamak için bir fonksiyon kullanmanız gerekecektir. Ayrıca ortalamayı en yakın tamsayıya yuvarlamak için math.h kitaplığından round() işlevini kullanabilirsiniz.
+
+round() işlevinin kullanımı:
+
+#include <math.h>
+
+double x = 3.4;
+int y = round(x);  // y will be 3

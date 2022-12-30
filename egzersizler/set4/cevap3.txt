@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <math.h>
+
+#define MAX_SIZE 100  // Maximum size of array
+
+// Calculates and returns the average of the elements in the given array
+double calculateAverage(int array[], int size) {
+  int sum = 0;
+  for (int i = 0; i < size; i++) {
+    sum += array[i];
+  }
+  return (double) sum / size;
+}
+
+int main(void) {
+  int array[MAX_SIZE];  // Array to store entered integers
+  int size = 0;  // Number of elements in array
+
+  // Read integers from the user until a negative number is entered
+  int n;
+  printf("Enter an integer (negative to quit): ");
+  scanf("%d", &n);
+  while (n >= 0) {
+    array[size++] = n;
+    printf("Enter an integer (negative to quit): ");
+    scanf("%d", &n);
+  }
+
+  // Calculate and print the average of the entered integers
+  double average = calculateAverage(array, size);
+  printf("Average: %d\n", (int) round(average));
+
+  return 0;
+}

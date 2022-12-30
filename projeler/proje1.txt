@@ -1,4 +1,4 @@
-Romen rakamları kullanılarak yazılmış bir sayıyı modern rakamlara çeviren programı yazınız.
+Romen rakamları kullanılarak yazılmış bir sayıyı modern rakamlara çeviren programı yazın.
 
 >> Girdiler I-MMMMCMXCIX (1-4999) arasında olmalı.
 

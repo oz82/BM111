@@ -1,0 +1,3 @@
+Verilen bir tamsayı dizisinin modunu (en çok tekrar eden sayı) bulan programı yazınız.
+
+Sınırlama: Tamsayılar 0-9 aralığında olsun.

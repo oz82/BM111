@@ -1,0 +1,17 @@
+Bir tamsayı dizisinde yalnızca 0-9 arası rakamlar bulunsun. Bu rakamların frekanslarını hesaplayan programı yazınız.
+
+ÖRNEK
+girdi:
+int dizi[] = {2,2,2,4,6,7,9,2,4,7,0,1,8}
+
+çıktı:
+0 -> 1
+1 -> 1
+2 -> 4
+3 -> 0
+4 -> 2
+5 -> 0
+6 -> 1
+7 -> 2
+8 -> 1
+9 -> 1

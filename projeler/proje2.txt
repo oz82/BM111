@@ -1,0 +1,10 @@
+Kullanıcıdan bir cümle alan ve bu cümledeki kelimeleri sayan bir C programı yazın. Program cümledeki kelime sayısını ve her kelimenin tekrarlanma sayısını hesaplamalıdır. Kelime, boşluklarla ayrılmış bir karakter dizisi olarak tanımlanır.
+
+Program kullanıcıdan bir cümle girmesini istemeli ve ardından sonuçları şu şekilde göstermelidir:
+
+Enter a string: The quick brown fox jumps over the lazy dog.
+The string has 9 words.
+The word 'The' appears 2 times.
+The word 'quick' appears 1 time.
+The word 'brown' appears 1 time.
+...

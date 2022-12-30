@@ -1,0 +1,71 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define MAX_LEN 16  // Maximum length of resulting Roman numeral string
+
+void toRoman(char result[]) {
+  int n;  // Input number
+  printf("Enter a number between 1 and 3999: ");
+  scanf("%d", &n);
+
+  // Roman numerals are written using the following symbols:
+  // I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000
+  int i = 0;  // Index in result string
+  int hundreds, tens, units;  // Digits in the input number
+
+  // Extract the digits from the input number
+  hundreds = n / 100;
+  tens = (n / 10) % 10;
+  units = n % 10;
+
+  // Convert the hundreds digit
+  for (int j = 0; j < hundreds; j++) {
+    result[i++] = 'C';
+  }
+
+  // Convert the tens digit
+  if (tens == 9) {
+    result[i++] = 'X';
+    result[i++] = 'C';
+  } else if (tens >= 5) {
+    result[i++] = 'L';
+    for (int j = 0; j < tens - 5; j++) {
+      result[i++] = 'X';
+    }
+  } else if (tens == 4) {
+    result[i++] = 'X';
+    result[i++] = 'L';
+  } else {
+    for (int j = 0; j < tens; j++) {
+      result[i++] = 'X';
+    }
+  }
+
+  // Convert the units digit
+  if (units == 9) {
+    result[i++] = 'I';
+    result[i++] = 'X';
+  } else if (units >= 5) {
+    result[i++] = 'V';
+    for (int j = 0; j < units - 5; j++) {
+      result[i++] = 'I';
+    }
+  } else if (units == 4) {
+    result[i++] = 'I';
+    result[i++] = 'V';
+  } else {
+    for (int j = 0; j < units; j++) {
+      result[i++] = 'I';
+    }
+  }
+
+  result[i] = '\0';  // Null terminate the result string
+}
+
+int main(void) {
+  char result[MAX_LEN];
+  toRoman(result);
+  printf("%s\n", result);
+  return 0;
+}
