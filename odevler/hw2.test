@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    int score = 0;
+    if (is_palindromic("kitap", 5) == 0) score += 5;
+    if (is_palindromic("olilo", 5) == 1) score += 5;
+    if (is_palindromic("12345678987654321", 17) == 1) score += 5;
+    if (is_palindromic("Eski dediysE", 12) == 0) score += 10;
+    if (is_palindromic("Abba abbA", 9) == 1) score += 10;
+    if (is_palindromic("aBc defGhij klkjihG fedcBa", 23) == 1) score += 20;
+    if (is_palindromic("aBa bAb a baba Ba", 14) == 0) score += 20;
+    if (is_palindromic("!aBc baAbCba abc bAabCb a", 30) == 1) score += 25;
+    
+    printf("puan: %d", score);
+    return 0;
+}
